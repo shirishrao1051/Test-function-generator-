@@ -13,10 +13,10 @@ NL3 - Mix of polynomial,logistic ,log and exp terms. <br />
 The various arguments for the functions are described below <br />
 
 dim : The dimension of the dataset. Currently the only possible value the function takes are 12,36 and 60 <br />
-split : Split ration between continuos and categorical features in the problem. <br />
-       Split =1 25% continuous and 75% categorical <br />
-       Split=2  equal number of continuous and categorical features <br />
-       Split =3 75% continuous and 25% categorical <br />
+split : Split ration between continuos and categorical features in the problem.
+       1 = 25% continuous and 75% categorical.
+       2 = equal number of continuous and categorical features.
+       3 = 75% continuous and 25% categorical <br />
 imp : Proportion of true features in the problem. Possible values are 0.25, 0.5 and 0.75 <br />
 resptype : Defines the structure of true model. <br />
           1 - Purely additive model <br />
