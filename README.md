@@ -1,10 +1,10 @@
 # Test-function-generator-
 The code generates test functions including categorical variables with interaction effects. 
 
-This function generator is motivated by complex engineering applications where there is a mix of continuous and categorical features involved, and the response has a non-linear relation with the features. The description of the different parameters of the function is given below. 
+This function generator is motivated by complex engineering applications where there is a mix of continuous and categorical features involved, and the response has a non-linear relation with the features. The description of the different parameters of the function is given below. <br />
 
-Non Linearity : Based on the common test functions used for optimization in the literature (https://www.sfu.ca/~ssurjano/optimization.html) , the common structures observed are
-1) polynomials up to 4th order 2) trignometric functions (sin and cos) 3) log, exp, and logistic functions.
+Non Linearity : Based on the common test functions used for optimization in the literature (https://www.sfu.ca/~ssurjano/optimization.html) , the common structures observed are <br />
+1) polynomials up to 4th order   2) trignometric functions (sin and cos)   3) log, exp, and logistic functions <br />
 This function creates "families" of non linear functions. The non linear family consists fuctions for 
 NL1 - Only polynomial terms (will create a function with only polynomial terms)
 NL2 - Polynomial and Trignometric terms
